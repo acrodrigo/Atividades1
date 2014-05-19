@@ -1,16 +1,20 @@
 #include<conio.h>
 #include<stdio.h>
-	int main(){
-		
-		int i=11;
-		while(i>10)
+
+void menor_divosor1e20(){
+	int i=21;
+		while(i>20)
 			{
 				if ((i%2==0)&&(i%3==0)&&(i%4==0)&&(i%5==0)&&(i%6==0)&&(i%7==0)&&(i%8==0)&&(i%9==0)&&(i%10==0)&&(i%11==0)&&(i%12==0)&&(i%13==0)&&(i%14==0)&&(i%15==0)&&(i%16==0)&&(i%17==0)&&(i%18==0)&&(i%19==0)&&(i%20==0))
 				{
-					printf("%d", i);
+					printf("O menor numero divisel de 1 a 20 é %d", i);
 					break;
 				}
 		i++;
 			}
+}
+
+int main(){
+	menor_divosor1e20();	
 			
 	}

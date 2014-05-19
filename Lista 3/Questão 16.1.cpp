@@ -1,8 +1,7 @@
 #include<stdio.h>
 
-int main (){
-	int u0,u1,i,aux, soma;
-	
+void fribonacci(){
+	int u0,u1,i,aux, soma;	
 	soma =0;
 	u0 = 0;
 	u1 = 1;
@@ -23,6 +22,8 @@ int main (){
 				printf("%d\n", soma);
 		}
 		printf("O final %d", soma);
-		
-		
+}
+
+int main (){
+	fribonacci();		
 	}
